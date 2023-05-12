@@ -1,0 +1,38 @@
+body {
+    background: rgb(39, 43, 51);
+}
+
+.main-search {
+    display: flex;
+    width: 800px;
+    height: 40px;
+    background: rgb(60, 62, 68);
+    text-align: center;
+    font-size: 22px;
+    margin: 20px auto;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(39, 43, 51);
+    cursor: pointer;
+}
+
+.page {
+    margin: 0 auto;
+    background: rgb(39, 43, 51);
+}
+
+.character-wrapper {
+    min-height: calc(-60px + 50vh);
+    padding: 4.5rem 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(39, 43, 51);
+}
+
+.character-container {
+    flex-wrap: wrap;
+    max-width: 1920px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

@@ -1,0 +1,34 @@
+a {
+    text-decoration: none;
+}
+
+.character-card {
+    width: 600px;
+    height: 220px;
+    display: flex;
+    overflow: hidden;
+    background: rgb(60, 62, 68);
+    border-radius: 0.5rem;
+    margin: 0.75rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    color: #f08d49;
+}
+
+.character-card:hover {
+    opacity: 75%;
+}
+
+.character-info {
+    flex: 3 1 0%;
+    position: relative;
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    cursor: pointer;
+}
